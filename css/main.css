@@ -151,6 +151,7 @@ h1 {
 .second.page {
     background-color: #f6f6f6;
 }
+
 .page h2 {
     font-size: 35px;
     line-height: 50px;
@@ -158,3 +159,22 @@ h1 {
     margin-bottom: 40px;
 }
 
+.fourth.page {
+    text-align: center;
+}
+
+.page h3 {
+    display: inline-block;
+    font-size: 25px;
+    height: 120px;
+    line-height: 120px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding: 0 50px;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth.page a {
+    display: block;
+}
