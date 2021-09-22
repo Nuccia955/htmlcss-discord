@@ -30,7 +30,7 @@ body {
 .introduction {
     background-color: #3161e0;
     color:white;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 header div,
@@ -79,6 +79,28 @@ a {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.hero_content {
+    width: 800px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    padding: 10px 0;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 /* BUTTONS */
@@ -99,5 +121,6 @@ a {
 }
 
 .wide_button {
-
+    padding: 15px 25px;
+    border-radius: 30px;
 }
