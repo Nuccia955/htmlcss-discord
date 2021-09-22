@@ -16,6 +16,10 @@ body {
     margin: 0 auto;
 }
 
+.strict_container {
+    width: 600px;
+    margin: 0 auto;
+}
 .clearfix::after {
     content: '';
     display: table;
@@ -146,7 +150,7 @@ h1 {
 
 /* SECTION PAGES */
 .page {
-    padding: 200px 0;
+    padding: 130px 0;
 }
 .second.page {
     background-color: #f6f6f6;
@@ -161,6 +165,7 @@ h1 {
 
 .fourth.page {
     text-align: center;
+    background-color: #f6f6f6;
 }
 
 .page h3 {
@@ -176,5 +181,70 @@ h1 {
     background-repeat: no-repeat;
 }
 .fourth.page a {
+    display: inline-block;
+    background-color: #8ea1e1;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: #23272a;
+    color: white;
+}
+footer .container {
+    padding: 90px 0 40px;
+    border-bottom: 1px solid #4a5882;
+}
+.column_contacts {
+    width: 25%;
+    margin-right: 60px;
+}
+
+.flag {
+    display: inline-block;
+    object-fit: contain;
+    width: 24px;
+    height: 14px;
+    margin-bottom: 25px;
+}
+.flag img {
+    vertical-align: middle;
+}
+
+.column_contacts h3 {
+    font-size: 25px;
+    color: #7289da;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.column_contacts span {
+    font-size: 14px;
+}
+
+.column_useful_links {
+    width: 16%;
+    font-size: 13px;
+    padding: 0 30px;
+}
+
+footer h4 {
+    color: #7289da;
+    padding: 0 0 10px;
+}
+footer a {
     display: block;
+    color: white;
+    padding: 10px 0;
+}
+
+footer .container {
+    padding: 35px 0 100px;
+}
+footer .strict_button a {
+    font-weight: 600;
+    color: white;
+    background-color: #8ea1e1;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
