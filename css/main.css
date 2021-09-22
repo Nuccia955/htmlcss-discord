@@ -26,16 +26,28 @@ body {
     float: left;
 }
 
+.float_r {
+    float: right;
+}
+
 .wide_column {
     width: 60%;
+    padding:0 80px;
 }
 
 .strict_column {
     width: 25%;
 }
 
-.mb_150 {
-    margin-bottom: 150px;
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 /*SECTION INTRODUCTION*/
@@ -110,11 +122,6 @@ h1 {
     font-size: 45px;
 }
 
-p {
-    line-height: 30px;
-    margin-bottom: 30px;
-}
-
 /* BUTTONS */
 .white_button {
     background-color: white;
@@ -137,7 +144,13 @@ p {
     border-radius: 30px;
 }
 
-/* SECTION FIRST PAGE */
+/* SECTION PAGES */
+.page {
+    padding: 200px 0;
+}
+.second.page {
+    background-color: #f6f6f6;
+}
 .page h2 {
     font-size: 35px;
     line-height: 50px;
