@@ -41,6 +41,7 @@ body {
 
 .strict_column {
     width: 25%;
+    padding: 10px;
 }
 
 img {
@@ -99,7 +100,6 @@ a {
 .login {
     width: 20%;
     text-align: right;
-    padding: 0 10px;
 }
 
 /* HERO */
@@ -124,6 +124,7 @@ h1 {
     padding: 10px 0;
     margin-bottom: 40px;
     font-size: 45px;
+    font-weight: 900;
 }
 
 /* BUTTONS */
@@ -220,6 +221,15 @@ footer .container {
 
 .column_contacts span {
     font-size: 14px;
+}
+
+.column_contacts li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 25px;
+}
+.column_contacts .icons {
+    font-size: 20px;
 }
 
 .column_useful_links {
